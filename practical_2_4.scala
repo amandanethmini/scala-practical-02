@@ -8,11 +8,14 @@ object practical_2_4 {
     var price1 = 10
     var price2 = 15
     var price3 = 20
+    var price4 = 25
     var out1 = profit(price1)
     println(f"Profit(ticket price=10): $out1%.2f")
     var out2 = profit(price2)
     println(f"Profit(ticket price=15): $out2%.2f")
     var out3 = profit(price3)
     println(f"Profit(ticket price=20): $out3%.2f")
+    var out4 = profit(price4)
+    println(f"Profit(ticket price=25): $out4%.2f")
   }
 }
